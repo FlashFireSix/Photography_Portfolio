@@ -1,12 +1,16 @@
+/* Global styles */
 * {
     
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Cardo', serif;
+    text-decoration: none;
+    color: black;
+
 }
 
-
+/* The entire sidebar, including all elements below */
 .sidebar {
     position: fixed;
     top: 2.5%;
@@ -15,24 +19,29 @@
     border-right: 3px solid black;
 }
 
+/* Name */
 .name {
     font-size: 45px;
     /*          top     right   bottom  left*/
     padding:    40px    0px     20px     40px;
     width: 200px;
     font-weight: 400;
+
 }
 
+
+/* The navigation bar that contains the parent sections*/
 .navbar {
     list-style-type:none;
     padding: 10px;
     width: 200px;
 }
 
+/* The subsections that reside within the parent sections */
 .navbar li {
     /*          top     right   bottom  left*/
     padding:    0px     0px     20px     30px;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
 }
 
